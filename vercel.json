@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm install && pnpm --filter @workspace/zaish-energy run build",
+  "outputDirectory": "artifacts/zaish-energy/dist/public",
+  "installCommand": "pnpm install"
+}
