@@ -192,7 +192,7 @@ export default function Home() {
           ></div>
         </div>
 
-        <div className="relative z-10 w-full max-w-max-widthmx-auto px-40 text-center">
+        <div className="relative z-10 w-full max-w-[1280px] mx-auto px-6 sm:px-10 lg:px-40 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -208,11 +208,11 @@ export default function Home() {
             >
               UAE'S LEADING SOLAR EPC CONTRACTOR
             </div>
-            <h1 className="text-5xl md:text-6xl font-extrabold font-syne leading-[1.1] tracking-tighter mb-6 uppercase text-white">
+            <h1 className="text-5xl sm:text-6xl md:text-6xl font-extrabold font-syne leading-[1.1] tracking-tighter mb-6 uppercase text-white">
               THE FUTURE OF <br />
               <span style={{ color: "#EE3600" }}>ENERGY IS NOW</span>
             </h1>
-            <p className="text-lg md:text-lg text-[#c5c7c8] mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg text-[#c5c7c8] mb-10 max-w-2xl mx-auto leading-relaxed">
               Precision solar engineering from design to commissioning. Serving
               utility, commercial, and industrial sectors across the UAE since
               2018.
@@ -220,14 +220,14 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <button
                 data-testid="button-get-quote-hero"
-                className="w-full sm:w-auto px-10 py-5 text-sm bg-[#EE3600] text-white font-bold uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-[#d02e00] transition-all hover:shadow-[0_0_15px_rgba(238,54,0,0.4)] transition-all duration-300 active:scale-95 group"
+                className="w-full sm:w-auto px-6 sm:px-10 py-4 sm:py-5 text-sm bg-[#EE3600] text-white font-bold uppercase tracking-widest flex items-center justify-center gap-2 hover:bg-[#d02e00] transition-all hover:shadow-[0_0_15px_rgba(238,54,0,0.4)] transition-all duration-300 active:scale-95 group"
               >
                 GET FREE QUOTE{" "}
                 <ArrowRight className="inline-block transition-transform duration-300 group-hover:translate-x-1" />
               </button>
               <button
                 data-testid="button-view-projects-hero"
-                className="w-full sm:w-auto px-10 py-5 text-sm font-bold uppercase tracking-widest flex items-center justify-center border border-[#EE3600] text-[#EE3600] hover:bg-[#d02e00] transition-all hover:text-white active:scale-95"
+                className="w-full sm:w-auto px-6 sm:px-10 py-4 sm:py-5 text-sm font-bold uppercase tracking-widest flex items-center justify-center border border-[#EE3600] text-[#EE3600] hover:bg-[#d02e00] transition-all hover:text-white active:scale-95"
               >
                 VIEW PROJECTS
               </button>
@@ -245,16 +245,16 @@ export default function Home() {
         style={{ backgroundColor: "#001D2F" }}
       >
         <div className="container mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-white/10">
+           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center px-4">
               <div
                 className="text-4xl md:text-5xl font-bold font-syne mb-2"
                 style={{ color: "#ffffff" }}
               >
-                150+
+                99.9<span className="text-xl md:text-3xl font-bold font-syne ml-1">%</span>
               </div>
               <div className="text-xs uppercase tracking-widest text-[#c5c7c8] font-medium">
-                Projects
+                Uptime
               </div>
             </div>
             <div className="text-center px-4">
@@ -262,10 +262,10 @@ export default function Home() {
                 className="text-4xl md:text-5xl font-bold font-syne mb-2"
                 style={{ color: "#ffffff" }}
               >
-                500+
+                 2<span className="text-xl md:text-3xl font-bold font-syne ml-1">TWh+</span>
               </div>
               <div className="text-xs uppercase tracking-widest text-[#c5c7c8] font-medium">
-                MW Installed
+                Generated
               </div>
             </div>
             <div className="text-center px-4">
@@ -273,7 +273,7 @@ export default function Home() {
                 className="text-4xl md:text-5xl font-bold font-syne mb-2"
                 style={{ color: "#ffffff" }}
               >
-                6+
+                8
               </div>
               <div className="text-xs uppercase tracking-widest text-[#c5c7c8] font-medium">
                 Years
@@ -284,10 +284,10 @@ export default function Home() {
                 className="text-4xl md:text-5xl font-bold font-syne mb-2"
                 style={{ color: "#ffffff" }}
               >
-                24
+                40<span className="text-xl md:text-3xl font-bold font-syne ml-1">+</span>
               </div>
               <div className="text-xs uppercase tracking-widest text-[#c5c7c8] font-medium">
-                Clients
+                Industry Certifications
               </div>
             </div>
           </div>
